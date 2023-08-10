@@ -10,6 +10,7 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 // import { mockTransactions } from '../../TheSalesDashboard.Data-JSON-/mockData';
+import Transaction from './Transaction';
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -25,7 +26,7 @@ export default function BasicGrid() {
     <Box sx={{ flexGrow: 1 }}>
       <Grid container spacing={2}>
         <Grid item xs={8}>
-          <Item>info here</Item>
+          <Item>hello</Item> 
         </Grid>
         <Grid item xs={10}>
           <Item>xs=4</Item>

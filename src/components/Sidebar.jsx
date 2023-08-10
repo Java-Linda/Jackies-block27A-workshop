@@ -10,6 +10,7 @@ import Divider from '@mui/material/Divider';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
+import { mockTransactions } from "../mockData"
 
 
 const drawerWidth = 240;
@@ -63,7 +64,8 @@ export default function PermanentDrawerLeft() {
         <Toolbar />
         <Typography paragraph>
           <div>
-            hello
+
+  
           </div>
         </Typography>
         <Typography paragraph>
