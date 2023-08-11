@@ -46,7 +46,7 @@ export default function PermanentDrawerLeft() {
         <Divider />
         <List>
           {['Dashboard', 'Facts Page', 'New Clients', 'Sales Obtained'].map((text) => (
-            <ListItem key={text} onClick={()=> console.log("bye")}>
+            <ListItem key={text} onClick={()=> alert("pretend like this does something :D")}>
               <ListItemButton>
    
                 <ListItemText primary={text} />
@@ -68,10 +68,8 @@ export default function PermanentDrawerLeft() {
   
           </div>
         </Typography>
-        <Typography paragraph>
-            <div>
-                lalala
-            </div>
+        <Typography paragraph >
+          <div id="transactions"><h1>Transactions</h1></div>
         </Typography>
       </Box>
     </Box>
